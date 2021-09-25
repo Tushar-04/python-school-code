@@ -9,7 +9,7 @@ print()
 
 #Database
 def create_db():
-    conn=mysql.connector.connect(host='localhost',user='root',password=a)
+    conn=mysql.connector.connt(host='localhost',user='root',password=a)
     cursor=conn.cursor()
     query='create database Library '
     cursor.execute(query)
